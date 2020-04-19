@@ -1,0 +1,64 @@
+label {
+  display: block;
+  color: blue;
+  font-size: 0.8rem;
+}
+.section-container {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.header-container {
+  padding-top: 7%;
+  background-image: url("../trees.png");
+  padding-bottom: 7%;
+}
+.header {
+  color: #6A5ACD;
+  font-family: 'Share', cursive;
+}
+.form-group {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  grid-gap: 5%;
+}
+.input-container {
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+.result-container {
+  background-image: url("../trees.png");
+}
+.result-text {
+  font-family: 'Dosis', sans-serif;
+  font-size: 12rem;
+  color: #6A5ACD;
+  opacity: 0;
+}
+#result {
+  text-align: center;
+}
+.footer-text {
+  margin-top: 4rem;
+  color: #A9A9A9;
+  font-size: 0.7rem;
+}
+.visible {
+  opacity: 1;
+}
+@media (min-width: 900px) {
+  .section-container {
+    padding-left: 35%;
+    padding-right: 35%;
+  }
+  .header {
+    font-size: 4rem;
+  }
+  .header-container {
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  .input-container {
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+}
